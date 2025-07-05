@@ -4,8 +4,8 @@ import pandas as pd
 from utils import load_model, predict_heart_disease, predict_diabetes
 
 # Load models
-heart_model = load_model("models/heart_model.pkl")
-diabetes_model = load_model("models/diabetes_model.pkl")
+heart_model = load_model("heart_model.pkl")
+diabetes_model = load_model("diabetes_model.pkl")
 
 st.set_page_config(page_title="AI Health Assistant", layout="centered")
 st.title("🧠 AI Health Assistant")
